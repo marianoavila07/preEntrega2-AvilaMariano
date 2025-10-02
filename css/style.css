@@ -1,0 +1,161 @@
+*{
+    margin: 0;
+    padding: 0;
+    color: #f0f0f0;
+}
+.background{
+background-image: linear-gradient(to right top, #000000, #121212, #1e1e1e, #2a2a2a, #363636);
+}
+
+p{
+    margin: 0;
+}
+/* Header */
+header{
+    display: flex;
+    justify-content: end;
+    padding-bottom: 2rem;
+}
+.nav a{
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+    width: 150px;
+    border:  #e5e7eb4b solid 1px;
+    border-radius: 30px;
+    font-size: 1.2rem;
+    text-decoration: none;
+    color: #f0f0f0;
+}
+.navbar-nav{
+    gap: 2rem;
+}
+.activo{ 
+    color: #ff00bf !important;
+}
+.boton{
+    border: #ba09ce solid 1px;
+    background-color: #ba09ce;
+    margin-bottom: 2rem;
+}
+
+/* Avatar */
+.avatar {
+    display: flex;
+    justify-content: center;
+    padding-top: 3rem;
+
+}
+.avatar-img {
+    width: 230px;
+    height: 260px;
+    border-radius: 50%;
+    object-fit: cover;
+    box-shadow: 1px 8px 20px #3d0238;
+    background-color: #ff00bf15;
+}
+
+/* Texto de Presentación */
+.articlePresentacion{
+    text-align: center;
+    padding: 2rem;
+}
+.saludo {
+    font-size: 2rem;
+}
+.saludo span {
+    color: #ff00bf;
+}
+.rol {
+    color: #686868;
+    font-size: 1.6rem;
+}
+strong{
+    color: #ba09ce;
+}
+.descripcion {
+    padding: 1rem;
+    font-size: 1.3rem;
+}
+.section-principal {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.presentacion {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    max-width: 1100px;
+    align-items: center;
+    text-align: left;
+}
+
+/* Habilidades */
+.h2Habilidades{
+    text-align: center;
+    padding-bottom: 2rem;
+    color: #ba09ce;
+    font-size: 1.5rem;
+}
+
+.articleHabilidades{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    padding-bottom: 2rem;
+}
+.articleHabilidades figure img{
+    width: 50px;
+    height: 50px;
+    box-shadow: 1px 8px 20px #3d0238;
+    padding: 10px;
+}
+.sectionHabilidades{
+    padding-bottom: 4rem;
+}
+.link-centrar {
+    display: flex;
+    justify-content: center; /* centra horizontalmente */
+}
+.ul-link {
+    padding: 0;
+    margin: 0;
+}
+
+/* Footer */
+
+.divFooter{
+    padding: 2rem;
+    display: flex;
+    justify-content: center; 
+    align-items: center;     
+}
+footer img{
+    width: 60px;
+    padding: 1rem;
+
+}
+footer p{
+    text-align: center;
+    padding-bottom: 2rem;
+    font-size: 1.3rem;
+}
+
+/* Proyectos */
+.grid-container{
+display: grid;
+grid-template-columns: repeat(3, 1fr);
+grid-template-rows: repeat(2, 1fr);
+row-gap: 2rem;
+justify-items: center;
+}
+
+.card{
+    width: 18rem;
+}
+
+.section-proyectos{
+    padding-bottom: 4rem;
+}
