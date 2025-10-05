@@ -26,19 +26,34 @@
             </nav>
         </header>
         <main>
-            <section class="sectionPrincipal container">
-                <form action="">
-                    <label for="nombre">Nombre:</label>
-                    <input type="text" name="nombre" id="nombre" />
-                    <label for="apellido">Apellido:</label>
-                    <input type="text" name="apellido" id="apellido" />
-                    <label for="mail">Mail:</label>
-                    <input type="email" name="mail" id="mail" />
-                    <label for="consulta">Ingrese su consulta</label>
-                    <textarea name="consulta" id="consulta"></textarea>
-                    <input type="submit" value="Enviar Consulta" />
+            <section class="contacto container">
+                <h2 class="h2-form">Realice su consulta</h2>
+                <form class="form-contacto">
+                    <div class="nombre">
+                        <label for="nombre">Nombre</label>
+                        <input type="text" id="nombre" name="nombre" required>
+                    </div>
+                    <div class="apellido">
+                        <label for="apellido">Apellido</label>
+                        <input type="text" id="apellido" name="apellido" required>
+                    </div>
+                    <div class="mail">
+                        <label for="email">Correo electrónico</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="numero">
+                        <label for="numero">Numero</label>
+                        <input type="number" id="numero" name="numero" required>
+                    </div>
+                    <div class="consulta">
+                        <label for="consulta">Consulta</label>
+                        <textarea id="consulta" name="consulta" rows="5" required></textarea>
+                    </div>
+                    <div class="form-boton">
+                        <button type="submit">Enviar</button>
+                    </div>
                 </form>
-        </section>
+</section>
         </main>
         <footer>
             <div class="divFooter">
