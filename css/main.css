@@ -1,0 +1,281 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.background {
+  background-image: linear-gradient(to right top, #000000, #121212, #1e1e1e, #2a2a2a, #363636);
+}
+
+header {
+  display: flex;
+  justify-content: end;
+  border-bottom: rgba(255, 255, 255, 0.1921568627) solid 1px;
+}
+header .nav a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 150px;
+  border: rgba(229, 231, 235, 0.2941176471) solid 1px;
+  border-radius: 30px;
+  font-size: 1.2rem;
+  text-decoration: none;
+  color: #f0f0f0;
+}
+header .navbar-nav {
+  gap: 2rem;
+}
+header .activo {
+  color: #ff00bf !important;
+}
+header .boton {
+  border: #ba09ce solid 1px;
+  background-color: #ba09ce;
+  margin-bottom: 2rem;
+}
+header .link-centrar {
+  display: flex;
+  justify-content: center;
+}
+header .ul-link {
+  padding: 0;
+  margin: 0;
+}
+
+.avatar {
+  display: flex;
+  justify-content: center;
+  padding-top: 2rem;
+}
+.avatar-img {
+  width: 230px;
+  height: 260px;
+  border-radius: 50%;
+  object-fit: cover;
+  box-shadow: 1px 8px 20px #3d0238;
+  background-color: rgba(255, 0, 191, 0.0823529412);
+}
+
+.articlePresentacion {
+  text-align: center;
+  padding: 2rem;
+  color: #f0f0f0;
+}
+.articlePresentacion .saludo {
+  font-size: 2rem;
+}
+.articlePresentacion .saludo span {
+  color: #ff00bf;
+}
+.articlePresentacion .rol {
+  color: #686868;
+  font-size: 1.6rem;
+}
+.articlePresentacion strong {
+  color: #ba09ce;
+}
+.articlePresentacion .descripcion {
+  padding: 1rem;
+  font-size: 1.3rem;
+}
+
+.section-principal {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.section-principal .presentacion {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  max-width: 1100px;
+  align-items: center;
+  text-align: left;
+}
+
+.h2Habilidades {
+  text-align: center;
+  padding-bottom: 2rem;
+  color: #ba09ce;
+  font-size: 1.5rem;
+}
+
+.articleHabilidades {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  padding-bottom: 2rem;
+}
+.articleHabilidades figure img {
+  width: 50px;
+  height: 50px;
+  box-shadow: 1px 8px 20px #3d0238;
+  padding: 10px;
+}
+
+.sectionHabilidades {
+  padding-bottom: 4rem;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  gap: 2rem;
+  justify-items: center;
+}
+
+.card {
+  padding: 1rem;
+  text-align: center;
+  background-image: linear-gradient(to right top, #ffffff, #cacaca, #979797, #676767, #3b3b3b, #3b3b3b, #3b3b3b, #3b3b3b, #676767, #979797, #cacaca, #ffffff);
+  border: 0;
+  width: 22rem;
+  color: #f0f0f0;
+}
+
+.section-proyectos {
+  padding: 4rem;
+}
+
+.h2-form {
+  color: #f0f0f0;
+  text-align: center;
+  padding: 1.5rem;
+}
+
+.contacto {
+  padding: 4rem;
+}
+
+.form-contacto {
+  justify-content: center;
+  display: grid;
+  gap: 2rem;
+  grid-template-areas: "nombre apellido" "mail numero" "consulta consulta" "boton boton";
+  grid-template-columns: 25% 25%;
+}
+.form-contacto .nombre {
+  grid-area: nombre;
+}
+.form-contacto .apellido {
+  grid-area: apellido;
+}
+.form-contacto .mail {
+  grid-area: mail;
+}
+.form-contacto .numero {
+  grid-area: numero;
+}
+.form-contacto .consulta {
+  grid-area: consulta;
+}
+.form-contacto .form-boton {
+  display: flex;
+  justify-content: center;
+  grid-area: boton;
+}
+.form-contacto label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+  color: #f0f0f0;
+}
+.form-contacto input, .form-contacto textarea {
+  width: 100%;
+  padding: 10px;
+  border: 0;
+  border-radius: 8px;
+  font-size: 16px;
+}
+.form-contacto button {
+  width: 100px;
+  border-radius: 8px;
+  border: 0;
+}
+
+footer {
+  border-top: rgba(255, 255, 255, 0.1921568627) solid 1px;
+}
+footer .divFooter {
+  padding: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+footer img {
+  width: 60px;
+  padding: 1rem;
+}
+footer p {
+  text-align: center;
+  padding-bottom: 2rem;
+  font-size: 1.3rem;
+  margin: 0;
+  color: #f0f0f0;
+}
+
+/* Tablets */
+@media (max-width: 1024px) {
+  header {
+    justify-content: start;
+  }
+  .grid-container {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: auto;
+    gap: 1.5rem;
+    padding: 2rem;
+  }
+  .presentacion {
+    flex-direction: column;
+    text-align: center;
+  }
+  .rol {
+    font-size: 1.3rem;
+  }
+  .descripcion {
+    font-size: 1.1rem;
+  }
+  .card {
+    width: auto;
+  }
+  .contacto {
+    padding: 2rem;
+  }
+  .form-contacto {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+/* Celulares */
+@media (max-width: 600px) {
+  header {
+    justify-content: start;
+  }
+  .avatar-img {
+    width: 200px;
+    height: 230px;
+  }
+  .grid-container {
+    grid-template-columns: 1fr;
+    gap: 3rem;
+    padding: 1rem;
+  }
+  .card {
+    width: auto;
+    margin: 0;
+  }
+  .form-contacto {
+    display: block;
+  }
+  label {
+    margin-top: 1rem;
+    display: block;
+  }
+  footer p {
+    font-size: 1rem;
+  }
+}
+
+/*# sourceMappingURL=main.css.map */

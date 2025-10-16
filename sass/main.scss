@@ -1,10 +1,11 @@
-@import 'variables';
-@import 'reset';
-@import 'header';
-@import 'avatar';
-@import 'presentacion';
-@import 'habilidades';
-@import 'proyectos';
-@import 'contacto';
-@import 'footer';
-@import 'responsive';
+@use "./generales/variables";
+@use "./generales/reset";
+@use "./pages/header";
+@use "./pages/avatar";
+@use "./pages/presentacion";
+@use "./pages/habilidades";
+@use "./pages/proyectos";
+@use "./pages/contacto";
+@use "./pages/footer";
+@use "./generales/responsive";
+
