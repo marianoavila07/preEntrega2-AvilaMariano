@@ -1,0 +1,45 @@
+/* Tablets */
+@media (max-width: 1024px) {
+    header {
+        justify-content: start;
+    }
+
+    .grid-container {
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: auto;
+        gap: 1.5rem;
+        padding: 2rem;
+    }
+
+    .presentacion {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .rol { font-size: 1.3rem; }
+    .descripcion { font-size: 1.1rem; }
+    .card { width: auto; }
+    .contacto { padding: 2rem; }
+    .form-contacto { grid-template-columns: 1fr 1fr; }
+}
+
+/* Celulares */
+@media (max-width: 600px) {
+    header { justify-content: start; }
+
+    .avatar-img { width: 200px; height: 230px; }
+
+    .grid-container {
+        grid-template-columns: 1fr;
+        gap: 3rem;
+        padding: 1rem;
+    }
+
+    .card { width: auto; margin: 0; }
+
+    .form-contacto { display: block; }
+
+    label { margin-top: 1rem; display: block; }
+
+    footer p { font-size: 1rem; }
+}

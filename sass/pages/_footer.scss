@@ -1,0 +1,20 @@
+footer {
+    border-top: $border-footer solid 1px;
+
+    .divFooter {
+        padding: 2rem;
+        display: flex;
+        justify-content: center; 
+        align-items: center;
+    }
+
+    img { width: 60px; padding: 1rem; }
+
+    p {
+        text-align: center;
+        padding-bottom: 2rem;
+        font-size: 1.3rem;
+        margin: 0;
+        color: $color-text;
+    }
+}

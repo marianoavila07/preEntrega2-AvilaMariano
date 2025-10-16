@@ -1,0 +1,14 @@
+.avatar {
+    display: flex;
+    justify-content: center;
+    padding-top: 2rem;
+
+    &-img {
+        width: 230px;
+        height: 260px;
+        border-radius: 50%;
+        object-fit: cover;
+        box-shadow: $shadow-box;
+        background-color: #ff00bf15;
+    }
+}

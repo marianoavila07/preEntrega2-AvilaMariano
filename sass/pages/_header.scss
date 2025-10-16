@@ -1,0 +1,27 @@
+header {
+    display: flex;
+    justify-content: end;
+    border-bottom: $border-footer solid 1px;
+    .nav {
+        a {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 150px;
+            border: $border-nav solid 1px;
+            border-radius: 30px;
+            font-size: 1.2rem;
+            text-decoration: none;
+            color: $color-text;
+        }
+    }
+    .navbar-nav { gap: 2rem; }
+    .activo { color: $color-active !important; }
+    .boton {
+        border: $color-accent solid 1px;
+        background-color: $color-accent;
+        margin-bottom: 2rem;
+    }
+    .link-centrar { display: flex; justify-content: center; }
+    .ul-link { padding: 0; margin: 0; }
+}
