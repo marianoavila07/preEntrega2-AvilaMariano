@@ -12,6 +12,12 @@ header {
             font-size: 1.2rem;
             text-decoration: none;
             color: $color-texto;
+            transition: 1s;
+            &:hover{
+            background-color: $color-rosa-1;
+            color: black;
+            transform: scale(1.1);
+        }
         }
         .nav-li { 
             gap: 2rem; 
