@@ -130,7 +130,7 @@ header .nav .boton {
   text-align: center;
   background-image: linear-gradient(to right top, #000000, #121212, #1e1e1e, #2a2a2a, #363636);
   border: 0;
-  width: 22rem;
+  width: auto;
   color: #f0f0f0;
 }
 .grid-container .card .btn-proyecto {
@@ -219,10 +219,13 @@ footer p {
     justify-content: start;
   }
   .grid-container {
-    grid-template-columns: repeat(1, 1fr);
+    grid-template-columns: repeat(2, 1fr);
     grid-template-rows: auto;
     gap: 1.5rem;
     padding: 2rem;
+  }
+  .grid-container .card {
+    width: auto;
   }
   .presentacion {
     flex-direction: column;
@@ -233,9 +236,6 @@ footer p {
   }
   .descripcion {
     font-size: 1.1rem;
-  }
-  .card {
-    width: auto;
   }
   .contacto {
     padding: 2rem;

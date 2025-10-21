@@ -5,10 +5,14 @@
     }
 
     .grid-container {
-        grid-template-columns: repeat(1, 1fr);
+        grid-template-columns: repeat(2, 1fr);
         grid-template-rows: auto;
         gap: 1.5rem;
-        padding: 2rem;
+        padding: 2rem;  
+            .card { 
+                width: auto; 
+            }
+
     }
 
     .presentacion {
@@ -21,9 +25,6 @@
     }
     .descripcion { 
         font-size: 1.1rem; 
-    }
-    .card { 
-        width: auto; 
     }
     .contacto { 
         padding: 2rem; 
