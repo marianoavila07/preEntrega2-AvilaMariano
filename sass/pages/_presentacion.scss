@@ -2,22 +2,30 @@
 .articlePresentacion {
     text-align: center;
     padding: 2rem;
-    color: $color-text;
+    color: $color-texto;
 
     .saludo {
         font-size: 2rem;
-        span { color: $color-active; }
+        span { 
+            color: $color-rosa-2;
+        }
     }
 
-    .rol { color: #686868; font-size: 1.6rem; }
-    strong { color: $color-accent; }
-    .descripcion { padding: 1rem; font-size: 1.3rem; }
+    .rol { 
+        color: #686868; 
+        font-size: 1.6rem; 
+    }
+    strong { 
+        color: $color-rosa-1; 
+    }
+    .descripcion { 
+        padding: 1rem; 
+        font-size: 1.3rem; 
+    }
 }
 
 .section-principal {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    @include flex;
 
     .presentacion {
         display: flex;

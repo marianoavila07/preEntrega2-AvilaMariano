@@ -1,9 +1,16 @@
 //colores
-$color-bg-gradient: linear-gradient(to right top, #000000, #121212, #1e1e1e, #2a2a2a, #363636);
-$color-text: #f0f0f0;
-$color-accent: #ba09ce;
-$color-active: #ff00bf;
+$background: linear-gradient(to right top, #000000, #121212, #1e1e1e, #2a2a2a, #363636);
+$color-texto: #f0f0f0;
+$color-rosa-1: #ba09ce;
+$color-rosa-2: #ff00bf;
 $border-footer: #ffffff31;
 $border-nav: #e5e7eb4b;
-$card-gradient: linear-gradient(to right top, #ffffff, #cacaca, #979797, #676767, #3b3b3b, #3b3b3b, #3b3b3b, #3b3b3b, #676767, #979797, #cacaca, #ffffff);
-$shadow-box: 1px 8px 20px #3d0238;
+$card: linear-gradient(to right top, #ffffff, #cacaca, #979797, #676767, #3b3b3b, #3b3b3b, #3b3b3b, #3b3b3b, #676767, #979797, #cacaca, #ffffff);
+$sombras: 1px 8px 20px #3d0238;
+
+//mixin 
+@mixin flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

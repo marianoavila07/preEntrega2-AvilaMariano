@@ -23,29 +23,22 @@ header .nav a {
   text-decoration: none;
   color: #f0f0f0;
 }
-header .navbar-nav {
+header .nav .nav-li {
   gap: 2rem;
 }
-header .activo {
+header .nav .activo {
   color: #ff00bf !important;
 }
-header .boton {
+header .nav .boton {
   border: #ba09ce solid 1px;
   background-color: #ba09ce;
   margin-bottom: 2rem;
-}
-header .link-centrar {
-  display: flex;
-  justify-content: center;
-}
-header .ul-link {
-  padding: 0;
-  margin: 0;
 }
 
 .avatar {
   display: flex;
   justify-content: center;
+  align-items: center;
   padding-top: 2rem;
 }
 .avatar-img {
@@ -101,22 +94,21 @@ header .ul-link {
   font-size: 1.5rem;
 }
 
-.articleHabilidades {
+.sectionHabilidades {
+  padding-bottom: 4rem;
+}
+.sectionHabilidades .articleHabilidades {
   display: flex;
-  align-items: center;
   justify-content: center;
+  align-items: center;
   gap: 30px;
   padding-bottom: 2rem;
 }
-.articleHabilidades figure img {
+.sectionHabilidades .articleHabilidades figure img {
   width: 50px;
   height: 50px;
   box-shadow: 1px 8px 20px #3d0238;
   padding: 10px;
-}
-
-.sectionHabilidades {
-  padding-bottom: 4rem;
 }
 
 .grid-container {
@@ -125,9 +117,9 @@ header .ul-link {
   grid-template-rows: repeat(2, 1fr);
   gap: 2rem;
   justify-items: center;
+  padding: 4rem;
 }
-
-.card {
+.grid-container .card {
   padding: 1rem;
   text-align: center;
   background-image: linear-gradient(to right top, #ffffff, #cacaca, #979797, #676767, #3b3b3b, #3b3b3b, #3b3b3b, #3b3b3b, #676767, #979797, #cacaca, #ffffff);
@@ -136,18 +128,13 @@ header .ul-link {
   color: #f0f0f0;
 }
 
-.section-proyectos {
+.contacto {
   padding: 4rem;
 }
-
-.h2-form {
+.contacto .h2-form {
   color: #f0f0f0;
   text-align: center;
   padding: 1.5rem;
-}
-
-.contacto {
-  padding: 4rem;
 }
 
 .form-contacto {
@@ -205,7 +192,7 @@ footer .divFooter {
   justify-content: center;
   align-items: center;
 }
-footer img {
+footer .divFooter img {
   width: 60px;
   padding: 1rem;
 }

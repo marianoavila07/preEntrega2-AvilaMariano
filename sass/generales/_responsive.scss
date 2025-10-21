@@ -16,18 +16,33 @@
         text-align: center;
     }
 
-    .rol { font-size: 1.3rem; }
-    .descripcion { font-size: 1.1rem; }
-    .card { width: auto; }
-    .contacto { padding: 2rem; }
-    .form-contacto { grid-template-columns: 1fr 1fr; }
+    .rol { 
+        font-size: 1.3rem; 
+    }
+    .descripcion { 
+        font-size: 1.1rem; 
+    }
+    .card { 
+        width: auto; 
+    }
+    .contacto { 
+        padding: 2rem; 
+    }
+    .form-contacto { 
+        grid-template-columns: 1fr 1fr; 
+    }
 }
 
 /* Celulares */
 @media (max-width: 600px) {
-    header { justify-content: start; }
+    header { 
+        justify-content: start; 
+    }
 
-    .avatar-img { width: 200px; height: 230px; }
+    .avatar-img { 
+        width: 200px; 
+        height: 230px; 
+    }
 
     .grid-container {
         grid-template-columns: 1fr;
@@ -35,11 +50,19 @@
         padding: 1rem;
     }
 
-    .card { width: auto; margin: 0; }
+    .card { 
+        width: auto; 
+        margin: 0; }
 
-    .form-contacto { display: block; }
+    .form-contacto { 
+        display: block; 
+    }
 
-    label { margin-top: 1rem; display: block; }
+    label { 
+        margin-top: 1rem; 
+        display: block; }
 
-    footer p { font-size: 1rem; }
+    footer p { 
+        font-size: 1rem; 
+    }
 }

@@ -1,7 +1,6 @@
 @use "../generales/variables" as*;
 .avatar {
-    display: flex;
-    justify-content: center;
+    @include flex;
     padding-top: 2rem;
 
     &-img {
@@ -9,7 +8,7 @@
         height: 260px;
         border-radius: 50%;
         object-fit: cover;
-        box-shadow: $shadow-box;
+        box-shadow: $sombras;
         background-color: #ff00bf15;
     }
 }

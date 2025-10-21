@@ -2,23 +2,24 @@
 .h2Habilidades {
     text-align: center;
     padding-bottom: 2rem;
-    color: $color-accent;
+    color: $color-rosa-1;
     font-size: 1.5rem;
 }
+.sectionHabilidades { 
+    padding-bottom: 4rem; 
+    
+    .articleHabilidades {
+        @include flex;
+        gap: 30px;
+        padding-bottom: 2rem;
 
-.articleHabilidades {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 30px;
-    padding-bottom: 2rem;
-
-    figure img {
-        width: 50px;
-        height: 50px;
-        box-shadow: $shadow-box;
-        padding: 10px;
+        figure img {
+            width: 50px;
+            height: 50px;
+            box-shadow: $sombras;
+            padding: 10px;
+        }
     }
 }
 
-.sectionHabilidades { padding-bottom: 4rem; }
+
