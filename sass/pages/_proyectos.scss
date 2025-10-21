@@ -9,9 +9,12 @@
     .card {
         padding: 1rem;
         text-align: center;
-        background-image: $card;
+        background-image: $background;
         border: 0;
         width: 22rem;
         color: $color-texto;
+        .btn-proyecto{
+            background-color: $color-rosa-2;
+        }
     }
 }

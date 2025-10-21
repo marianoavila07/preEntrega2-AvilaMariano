@@ -128,10 +128,13 @@ header .nav .boton {
 .grid-container .card {
   padding: 1rem;
   text-align: center;
-  background-image: linear-gradient(to right top, #ffffff, #cacaca, #979797, #676767, #3b3b3b, #3b3b3b, #3b3b3b, #3b3b3b, #676767, #979797, #cacaca, #ffffff);
+  background-image: linear-gradient(to right top, #000000, #121212, #1e1e1e, #2a2a2a, #363636);
   border: 0;
   width: 22rem;
   color: #f0f0f0;
+}
+.grid-container .card .btn-proyecto {
+  background-color: #ff00bf;
 }
 
 .contacto {
